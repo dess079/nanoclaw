@@ -73,6 +73,7 @@ Then run `/setup`. Claude Code handles everything: dependencies, authentication,
 - **Container isolation** - Agents are sandboxed in Docker (macOS/Linux), [Docker Sandboxes](docs/docker-sandboxes.md) (micro VM isolation), or Apple Container (macOS)
 - **Agent Swarms** - Spin up teams of specialized agents that collaborate on complex tasks
 - **Optional integrations** - Add Gmail (`/add-gmail`) and more via skills
+- **Local model offload** - Add Ollama (`/add-ollama-tool`) to extend capabilities with local models (gemma3, llama3, qwen, etc.) and reduce API credit usage
 
 ## Usage
 
